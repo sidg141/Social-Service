@@ -1,0 +1,131 @@
+/*######### layout #######*/
+   body{
+                margin:0px;
+            }
+            .list_box{
+                overflow:hidden;
+                width:100%;
+            }
+            .box{
+                display: inline-block;
+                float:left;
+            }
+            .b1{
+                width:50%;
+            }
+/*############### style ############*/
+ 
+nav{
+    width:100%;
+    margin:0;
+}
+nav ul{
+    background-color:#eee;
+    overflow: hidden;
+    margin:0px;
+    padding: 0px;
+}
+ul.topnav li{
+    list-style: none;
+    float:left;
+}
+ul.topnav li.nav-right{
+    float:right;
+}
+ul.topnav li  a{
+    display: block;
+    text-decoration:none;
+    min-height:16px;
+    text-align: center;
+    padding:14px;
+    text-transform:uppercase;
+}
+ul.topnav  li a:hover{
+    background-color:#0080ff;
+    color:#fff;
+}
+ul.topnav li.dropdown{
+    display:none;
+}
+/*#################mobile#########*/
+@media screen and (max-width:680px){
+    ul.topnav li:not(:nth-child(1)){
+        display:none;
+    }
+    ul.topnav li.dropdown{
+        display: block;
+        float:right;
+    }
+    ul.topnav.responsive{
+        position:relative;
+    }
+    ul.topnav.responsive li{
+        display: inline;
+        float:none;
+    }
+    ul.topnav.responsive li a{
+        display: block;
+        text-align: left;
+    }
+   ul.topnav.responsive li.dropdown{
+        position: absolute;
+        top:0;
+        right:0;
+    }
+}
+/*############## slider ########*/
+.slider{
+    
+    width:100%;
+    height:650px;
+}
+#bar{
+    margin-top:250px;
+    width:80px;
+    height:5px;
+    border:1px solid black;
+    margin-right: 2px;
+}
+/*#########################thumbnail##########*/
+.container{
+    width:90%; 
+    margin:auto; 
+    overflow:hidden;
+    background-color:#FFFF00;
+}
+.hth{
+    width:30%;   
+    display: block; 
+    padding: 4px;  
+    margin-bottom: 20px;  
+    line-height: 1.42857143;
+    background-color: #fff;   
+    border: 1px solid #ddd;  
+    border-radius: 4px;   
+    float:left;   
+    margin-left:1%;
+    background-color: #F1F514;
+}
+
+.caption{
+    color:#fff;   
+    padding:0px 10px 10px;  
+    font-weight: bold;   
+    text-align: center; 
+}
+.thumbnail{
+    display: block;  
+    max-width: 100%;   
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+#subscribe{
+    border:none;
+    background-color:#26211f;
+    color:white;
+    font-size:16px;
+    margin:4px -4px;
+    padding:16px 40px;
+}
