@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Palak foundation</title>
+        <title>social foundation</title>
         <link rel="stylesheet" type="text/css" href="style.css">
                 <script>
            function dropdownmenu() {
